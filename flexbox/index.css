@@ -1,0 +1,48 @@
+.flex-container{
+    background-color: rgb(68, 68, 68);
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content: center;
+    height:100vh;
+    width:100vw;
+    flex-wrap: wrap;
+}
+.flex-item{
+    background-size: cover;
+    text-align:center;
+    margin:10px;
+    height:250px;
+    width:250px;
+    border-radius:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+}
+.image{
+    height:150px;
+    width:150px;
+    border: 10px;
+}
+.head{
+    font-size:20px;
+    font-weight: bold;
+    color: rgb(9, 4, 14);
+    margin-top: 10%;
+
+}
+.para{
+    font-size:15px;
+    color: rgb(7, 0, 10);
+    text-align: center;
+}
+.flex-box{
+    background-size: cover;
+    background-color: aliceblue;
+    height:270;
+    width:270;
+    border:20px;
+    margin:10px;
+
+}
